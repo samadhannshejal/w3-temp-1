@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/all.min.csss">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/e10251a52d.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet" />
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- --side image-- -->
+    <nav class="sidebar-img d-none d-lg-block" style="width: 40%">
+        <div class="bgimg"></div>
+    </nav>
+
+    <!-- sidebar-toggle -->
+    <nav class="sidebar bg-black" id="mySidebar">
+        <a onclick="closeNav()" class="btn bg-black close-btn">
+            <i class="fa fa-remove"></i>
+        </a>
+        <div class="navbar-block text-center">
+            <a href="#" class="nav-link py-2 px-3 grey-color
+             bg-hover-black" onclick="closeNav()">Home
+            </a>
+            <a href="#portfolio" class="nav-link py-2 px-3 grey-color
+             bg-hover-black" onclick="closeNav()">Portfolio
+            </a>
+            <a href="#about" class="nav-link py-2 px-3 grey-color
+             bg-hover-black" onclick="closeNav()">About
+            </a>
+            <a href="#contact" class="nav-link py-2 px-3 grey-color
+             bg-hover-black" onclick="closeNav()">Contact
+            </a>
+        </div>
+    </nav>
+    <!-- main-container-margin left-40% -->
+    <div class="main">
+        <span class="btn bar-button bg-white grey-color
+         rounded-0" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+        <!-- header -->
+
+        <header class=" text-center" id="home">
+            <h1 class="main-header-name"><b>Jane Doe</b></h1>
+            <p class="my-3">Photographer and Web Designer.</p>
+            <img src="https://www.w3schools.com/w3images/profile_girl.jpg"
+                class="d-none d-sm-block d-lg-none lg-screen-img" />
+            <img src="https://www.w3schools.com/w3images/profile_girl.jpg" class="d-block d-sm-none sm-screen-img"
+                width="1000" height="1333" />
+            <button class="btn mt-3 resume-btn rounded-0">
+                <i class="fa fa-download"></i> Download Resume
+            </button>
+        </header>
+
+        <!-- portfolio -->
+        <div class="section" id="portfolio">
+            <h2 class="grey-color
+             portfolio-header">My Portfolio</h2>
+            <hr class="opacity-1" />
+            <!-- grid images -->
+            <div class="row">
+                <div class="col-12 col-sm-6 px-2">
+                    <img src="https://www.w3schools.com/w3images/wedding.jpg" width="100%" class="portfolio-grid-img" />
+                    <img src="https://www.w3schools.com/w3images/rocks.jpg" width="100%" class="portfolio-grid-img" />
+                    <img src="https://www.w3schools.com/w3images/sailboat.jpg" width="100%"
+                        class="portfolio-grid-img" />
+                </div>
+
+                <div class="col-12 col-sm-6 px-2">
+                    <img src="https://www.w3schools.com/w3images/underwater.jpg" width="100%"
+                        class="portfolio-grid-img" />
+                    <img src="https://www.w3schools.com/w3images/chef.jpg" width="100%" class="portfolio-grid-img" />
+                    <img src="https://www.w3schools.com/w3images/wedding.jpg" width="100%" class="portfolio-grid-img" />
+                    <img src="https://www.w3schools.com/w3images/p6.jpg" width="100%" class="portfolio-grid-img" />
+                </div>
+            </div>
+        </div>
+
+        <!-- section - skill- Reputation - price  -->
+        <div class="section grey-color" id="about">
+
+            <h2 class="section-header">About</h2>
+            <hr class="opacity-1" />
+            <p class="my-3">
+                Some text about me. Some text about me. I am lorem ipsum consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <h3 class="skills-header py-3">My Skills</h3>
+            <p class="skills-title">Photography</p>
+
+            <!-- progress bar -->
+
+            <div class="bg-light-grey">
+                <div class="text-center bg-dark-grey py-1 px-2" style="width: 95%">
+                    95%
+                </div>
+            </div>
+            <p class="skills-title">Web Design</p>
+            <div class="bg-light-grey">
+                <div class="text-center py-1 px-2 bg-dark-grey" style="width: 85%">
+                    85%
+                </div>
+            </div>
+            <p class="skills-title">Photoshop</p>
+            <div class="bg-light-grey">
+                <div class="text-center py-1 px-2 bg-dark-grey" style="width: 80%">
+                    80%
+                </div>
+            </div>
+            <br />
+
+            <div class="row text-center bg-dark-grey mx-0 my-3 py-3">
+                <div class="col-12 col-sm-3 my-3">
+                    <span class="font-size-24">14+</span><br />
+                    Partners
+                </div>
+                <div class="col-12 col-sm-3 my-3">
+                    <span class="font-size-24">55+</span><br />
+                    Projects Done
+                </div>
+                <div class="col-12 col-sm-3 my-3">
+                    <span class="font-size-24">89+</span><br />
+                    Happy Clients
+                </div>
+                <div class="col-12 col-sm-3 my-3">
+                    <span class="font-size-24">150+</span><br />
+                    Meetings
+                </div>
+            </div>
+
+            <button class="btn my-3 resume-btn rounded-0">
+                <i class="fa fa-download"></i> Download Resume
+            </button>
+            <h3 class="testimonial-header">My Reputation</h3>
+
+            <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" alt="Avatar"
+                class="float-start rounded-circle me-3" style="width: 80px" />
+            <p class="my-3">
+                <span class="client-name me-3">Chandler Bing.</span> Web Designer.
+            </p>
+            <p class="my-3">
+                Jane Doe is just awesome. I am so happy to have met her!
+            </p>
+            <br />
+
+            <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Avatar"
+                class="float-start rounded-circle me-3" style="width: 80px" />
+            <p class="my-3">
+                <span class="me-3 client-name">Chris Fox.</span> CEO at Mighty
+                Schools.
+            </p>
+            <p class="my-3">Jane Doe saved us from a web disaster.</p>
+            <br />
+
+            <img src="https://www.w3schools.com/w3images/avatar_g2.jpg" alt="Avatar"
+                class="float-start rounded-circle me-3" style="width: 80px" />
+            <p class="my-3">
+                <span class="me-3 client-name">Rebecca Flex.</span> CEO at Company.
+            </p>
+            <p class="my-3">No one is better than Jane Doe.</p>
+            <br />
+
+            <h3 class="prices-header">My Price</h3>
+            <!-- pricing -->
+            <div class="row g-0 px-2 pricing-row">
+                <div class="col-12 col-sm-6 mb-3 px-2">
+                    <div class="card rounded-0 text-center">
+                        <div class="card-header rounded-0">Basic</div>
+                        <ul class="list-group list-group-flush p-2 grey-color
+                        ">
+                            <li class="list-group-item p-3">Web Design</li>
+                            <li class="list-group-item p-3">Photography</li>
+                            <li class="list-group-item p-3">1 Gb Storage</li>
+                            <li class="list-group-item p-3">Mail Support</li>
+                            <li class="list-group-item p-3">
+                                <p class="pricing my-2">$ 10</p>
+                                <p class="font-size-15 m-0">per month</p>
+                            </li>
+                        </ul>
+                        <div class="card-body sign-btn-section">
+                            <button type="button" class="btn rounded-0 sign-btn bg-hover-black">
+                                Sign Up
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 mb-3 px-2">
+                    <div class="card rounded-0 text-center">
+                        <div class="card-header bg-black rounded-0">Pro</div>
+                        <ul class="list-group list-group-flush p-2 grey-color
+                        ">
+                            <li class="list-group-item p-3">Web Design</li>
+                            <li class="list-group-item p-3">Photography</li>
+                            <li class="list-group-item p-3">50 Gb Storage</li>
+                            <li class="list-group-item p-3">Endless Support</li>
+                            <li class="list-group-item p-3">
+                                <p class="pricing my-2">$ 20</p>
+                                <p class="font-size-15 m-0">per month</p>
+                            </li>
+                        </ul>
+                        <div class="card-body sign-btn-section">
+                            <button type="button" class="btn rounded-0 sign-btn bg-hover-black">
+                                Sign Up
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- contact -->
+        <div class="section grey-color
+         mb-64" id="contact">
+            <h2 class="section-header">Contact Me</h2>
+            <hr class="opacity-1" />
+
+            <div class="adress">
+                <p class="my-3">
+                    <i class="fa fa-map-marker fa-fw font-size-36 me-3"></i> Chicago, US
+                </p>
+                <p class="my-3">
+                    <i class="fa fa-phone fa-fw font-size-36 me-3"></i> Phone: +00
+                    151515
+                </p>
+                <p class="my-3">
+                    <i class="fa fa-envelope fa-fw font-size-36 me-3"> </i> Email:
+                    mail@mail.com
+                </p>
+            </div>
+            <img src="https://www.w3schools.com/w3images/map.jpg" class="map-img" />
+
+            <p class="my-3">Lets get in touch. Send me a message:</p>
+            <form action="/action_page.php" target="_blank">
+                <p>
+                    <input class="form-control py-3 px-2 rounded-0" type="text" placeholder="Name" required=""
+                        name="Name" />
+                </p>
+                <p>
+                    <input class="form-control py-3 px-2 rounded-0" type="text" placeholder="Email" required=""
+                        name="Email" />
+                </p>
+                <p>
+                    <input class="form-control py-3 px-2 rounded-0" type="text" placeholder="Subject" required=""
+                        name="Subject" />
+                </p>
+                <p>
+                    <input class="form-control py-3 px-2 rounded-0" type="text" placeholder="Message" required=""
+                        name="Message" />
+                </p>
+                <p>
+                    <button class="send-msg-btn hover-light-grey" type="submit">
+                        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                    </button>
+                </p>
+            </form>
+        </div>
+        <footer class="footer-section bg-light-grey text-center opacity-60 font-size-24">
+            <i class="fa fa-facebook-official hover-opacity"></i>
+            <i class="fa fa-instagram hover-opacity"></i>
+            <i class="fa fa-snapchat hover-opacity"></i>
+            <i class="fa fa-pinterest hover-opacity"></i>
+            <i class="fa fa-twitter hover-opacity"></i>
+            <i class="fa fa-linkedin hover-opacity"></i>
+            <p class="font-size-15 my-3">
+                Powered by
+                <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-link">w3.css</a>
+            </p>
+        </footer>
+    </div>
+</body>
+
+<script>
+    function closeNav() {
+        document.getElementById("mySidebar").style.display = "none";
+    }
+
+    function openNav() {
+        document.getElementById("mySidebar").style.display = "block";
+
+    }
+</script>
+
+</html>

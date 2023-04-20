@@ -1,0 +1,297 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+  }
+  
+  .bg-black,
+  .bg-hover-black:hover {
+    color: #fff !important;
+    background-color: #000 !important;
+  }
+  
+  .sidebar-img {
+    width: 40%;
+    height: 100%;
+    background-color: #fff;
+    position: fixed !important;
+    z-index: 1;
+    overflow: auto;
+  }
+  
+  .bgimg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://www.w3schools.com/w3images/profile_girl.jpg);
+    min-height: 100%;
+  }
+  
+  .sidebar {
+    display: none;
+    padding-top: 150px;
+    right: 0px;
+    z-index: 2;
+    width: 60%;
+    position: fixed !important;
+    height: 100%;
+    overflow: auto;
+    font-size: 36px;
+  }
+  .close-btn {
+    font-size: 48px !important;
+    padding: 0 12px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .navbar-block {
+    width: 100%;
+    display: block;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0;
+  }
+  
+  .grey-color {
+    color: #757575 !important;
+  }
+  
+  .main {
+    margin-left: 40%;
+    padding: 12px 24px !important;
+  }
+  
+  .bar-button {
+    font-size: 36px !important;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+    width: auto;
+    right: 0;
+  }
+  
+  .bar-button:hover {
+    color: #000 !important;
+    background-color: #ccc !important;
+  }
+  
+  #home {
+    padding: 128px 16px;
+  }
+  
+  .main-header-name {
+    font-size: 64px !important;
+    margin: 10px 0px;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .lg-screen-img {
+    display: block;
+    width: 60%;
+    margin: auto;
+  }
+  
+  .sm-screen-img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .resume-btn {
+    font-size: 15px;
+    padding: 12px 24px !important;
+    color: #000 !important;
+    background-color: #f1f1f1 !important;
+  }
+  
+  .resume-btn:hover {
+    color: #000 !important;
+    background-color: #ccc !important;
+  }
+  
+  hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+  }
+  
+  .portfolio-grid-img {
+    margin-bottom: 12px;
+  }
+  
+  .section {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 980px;
+    padding: 32px 0px;
+  }
+  
+  .section-header {
+    font-size: 30px;
+    margin: 10px 0px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .adress{
+    margin: 16px 0px;
+  }
+  
+  .skills-header {
+    font-weight: 400;
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  .opacity-60 {
+    opacity: 0.6;
+  }
+  .opacity-1 {
+    opacity: 0.1;
+    margin: 20px 0px !important;
+  }
+  
+  .skills-title {
+    letter-spacing: 4px;
+    margin: 15px 0px;
+  }
+  
+  .bg-light-grey,
+  .hover-light-grey:hover {
+    color: #000 !important;
+    background-color: #f1f1f1 !important;
+  }
+  
+  .bg-dark-grey,
+  .hover-dark-grey:hover {
+    color: #fff !important;
+    background-color: #616161 !important;
+  }
+  
+  .font-size-24 {
+    font-size: 24px;
+  }
+  
+  .font-size-36 {
+    font-size: 30px;
+  }
+  
+  .mb-64 {
+    margin-bottom: 64px;
+  }
+  
+  .testimonial-header {
+    font-size: 24px;
+    margin: 10px 0px;
+    padding: 24px 0px;
+    font-family: "Montserrat", sans-serif;
+
+  }
+  
+  .client-name {
+    font-size: 18px;
+    color: #000 !important;
+  }
+  
+  .prices-header {
+    font-size: 24px;
+    margin: 10px 0px;
+    padding: 16px 0px;
+  }
+  
+  .card {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .card-header {
+    font-size: 24px;
+    padding: 32px 16px;
+    color: #fff !important;
+    background-color: #616161 !important;
+  }
+  
+  .bg-black {
+    background-color: #000 !important;
+  }
+  
+  .list-group-item {
+    color: #757575;
+  }
+  
+  .pricing {
+    font-size: 30px;
+  }
+  
+  .sign-btn-section {
+    padding: 24px 16px;
+    color: #000 !important;
+    background-color: #f1f1f1 !important;
+  }
+  
+  .sign-btn {
+    padding: 12px 24px !important;
+    color: #000 !important;
+    background-color: #fff !important;
+  }
+  
+  .pricing-row {
+    margin: 0px -16px !important;
+  }
+  
+  .map-img {
+    width: 100%;
+    margin: 32px 0;
+    filter: grayscale(75%);
+  }
+  
+  .send-msg-btn {
+    padding: 12px 24px;
+    color: #000 !important;
+    background-color: #f1f1f1 !important;
+    border: none;
+  }
+  
+  .send-msg-btn:hover {
+    color: #000 !important;
+    background-color: #ccc !important;
+  }
+  
+  .footer-section {
+    padding: 64px 16px;
+    margin: -24px;
+  }
+  
+  .font-size-15 {
+    font-size: 15px;
+  }
+  
+  .hover-opacity:hover {
+    opacity: 0.6;
+  }
+  
+  .w3-link {
+    color: #000;
+  }
+  
+  .w3-link:hover {
+    color: green;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .main {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+  }
+  
