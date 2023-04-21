@@ -129,6 +129,9 @@
   .portfolio-grid-img {
     margin-bottom: 12px;
   }
+  .portfolio-header{
+    font-family: "Montserrat", sans-serif;
+  }
   
   .section {
     margin-left: auto;
@@ -196,6 +199,10 @@
     font-family: "Montserrat", sans-serif;
 
   }
+  .about-p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+  }
   
   .client-name {
     font-size: 18px;
@@ -206,6 +213,9 @@
     font-size: 24px;
     margin: 10px 0px;
     padding: 16px 0px;
+  }
+  .pricing-font{
+    font-family: "Montserrat", sans-serif;
   }
   
   .card {
@@ -218,7 +228,7 @@
   
   .card-header {
     font-size: 24px;
-    padding: 32px 16px;
+    padding: 32px 16px !important;
     color: #fff !important;
     background-color: #616161 !important;
   }
