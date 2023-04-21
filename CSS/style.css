@@ -10,6 +10,7 @@
     font-size: 15px;
     background-color: white;
     color: black;
+    line-height: 1.5;
   }
   
   .bg-black,
@@ -154,9 +155,10 @@
     opacity: 0.6;
   }
   .opacity-1 {
-    opacity: 0.1;
+    opacity: 0.06;
     margin: 20px 0px !important;
   }
+  
   
   .skills-title {
     letter-spacing: 4px;
